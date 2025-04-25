@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star GC - CC Checker & Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Star GC</h1>
+    <nav>
+      <a href="#">Checker</a>
+      <a href="#">Generator</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="checker">
+      <h2>Credit Card Checker</h2>
+      <input type="text" id="cc-input" placeholder="Enter card number...">
+      <button onclick="checkCard()">Check</button>
+      <p id="check-result"></p>
+    </section>
+
+    <section class="generator">
+      <h2>Credit Card Generator</h2>
+      <button onclick="generateCard()">Generate</button>
+      <p id="generated-card"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Star GC. For testing & educational purposes only.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
